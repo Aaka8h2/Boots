@@ -17,8 +17,8 @@ hours = now.hour
 ran= ['45','56','34','12','66','67','90','89','44','65','32','97','58']
 pr =random.choice(ran)
 
-mesp = 'VIPK.txt'
-myid = '6413782426'
+mesp = 'golu.txt'
+myid = '6486329379'
 
 try:
 	open(mesp,'r').read()
@@ -32,10 +32,10 @@ from datetime import datetime
 from faker import Faker
 import threading
 stopuser = {}
-token = "6838079486:AAF2eUCeQXDcN7juAmnjPrZNe-RFGGViZbM"
+token = "7736350421:AAGAvGu3eLn_teLwFhYGggZtJeg882GWGKM"
 bot=telebot.TeleBot(token,parse_mode="HTML")
-admin= 6413782426
-myid = '6413782426'
+admin= 6486329379
+myid = '6486329379'
 
 #
 def remove_year_prefix(combo_file):
